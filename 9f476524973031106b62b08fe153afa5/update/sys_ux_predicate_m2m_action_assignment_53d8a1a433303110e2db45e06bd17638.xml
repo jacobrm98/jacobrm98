@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">13d8a1a4db30311089f4f7ab4952f349</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">d7d8a1a40d3031107b6c39ccf6e1293b</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-18 11:58:48</sys_created_on>
+        <sys_id>53d8a1a433303110e2db45e06bd17638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hello World" source="x_1113205_hello_0">9f476524973031106b62b08fe153afa5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">9f476524973031106b62b08fe153afa5</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_53d8a1a433303110e2db45e06bd17638</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-18 11:58:48</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

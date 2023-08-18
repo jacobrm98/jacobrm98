@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment>
+        <predicate display_value="Popular articles predicate">97d8a1a4b5303110273decc146e39c3b</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-18 11:58:47</sys_created_on>
+        <sys_id>1bd8a1a4d630311076c8613869d5fc38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hello World" source="x_1113205_hello_0">9f476524973031106b62b08fe153afa5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">9f476524973031106b62b08fe153afa5</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_1bd8a1a4d630311076c8613869d5fc38</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-18 11:58:47</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

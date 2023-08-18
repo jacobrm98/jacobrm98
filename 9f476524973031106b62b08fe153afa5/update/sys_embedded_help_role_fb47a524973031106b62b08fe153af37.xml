@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1113205_hello_0.user" name="x_1113205_hello_0.user">ff47a524973031106b62b08fe153af36</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2023-08-18 11:51:57</sys_created_on>
+        <sys_id>fb47a524973031106b62b08fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ff47a524973031106b62b08fe153af36</sys_name>
+        <sys_package display_value="Hello World" source="x_1113205_hello_0">9f476524973031106b62b08fe153afa5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">9f476524973031106b62b08fe153afa5</sys_scope>
+        <sys_update_name>sys_embedded_help_role_fb47a524973031106b62b08fe153af37</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2023-08-18 11:51:57</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

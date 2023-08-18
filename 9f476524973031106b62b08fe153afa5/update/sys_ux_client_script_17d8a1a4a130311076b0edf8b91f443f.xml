@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">1bd8a1a42930311005614cfaf26a0840</macroponent>
+        <name>handle_search</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, helpers }) {
+    const fields = {
+        searchContextConfigId: api.context.props.searchContextConfigId
+    };
+    const params = {
+        searchFilters: api.context.props.searchFilters
+    };
+    
+	if (event.name === 'SN_SEARCH_RESULTS_CONTAINER#SEARCH_EXECUTED') {
+		fields.searchTerm = event.payload.searchTerm;
+		params.disableSpellCheck = true;
+        
+  	} else if (event.name === 'SN_SEARCH_COMBOBOX#SEARCH_EXECUTED') {
+		fields.searchTerm = event.payload.searchTerm;
+		params.disableSpellCheck = false;
+        console.log("search clicked");
+        api.setState('loading', true);
+        api.setState('searchTerm', event.payload.searchTerm);
+  	}
+	//helpers.navigate.to('search', fields, params);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-18 11:58:47</sys_created_on>
+        <sys_id>17d8a1a4a130311076b0edf8b91f443f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handle_search</sys_name>
+        <sys_package display_value="Hello World" source="x_1113205_hello_0">9f476524973031106b62b08fe153afa5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">9f476524973031106b62b08fe153afa5</sys_scope>
+        <sys_update_name>sys_ux_client_script_17d8a1a4a130311076b0edf8b91f443f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-18 11:58:47</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

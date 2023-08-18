@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">970b6528973031106b62b08fe153afeb</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2023-08-18 12:08:18</sys_created_on>
+        <sys_id>df0b6528973031106b62b08fe153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Hello World" source="x_1113205_hello_0">9f476524973031106b62b08fe153afa5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">9f476524973031106b62b08fe153afa5</sys_scope>
+        <sys_update_name>sp_column_df0b6528973031106b62b08fe153afed</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2023-08-18 12:08:18</sys_updated_on>
+    </sp_column>
+</record_update>
